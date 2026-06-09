@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#f4f4f4;
+    color:#333;
+}
+
+header{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:50px;
+}
+
+nav{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    padding:15px;
+    background:#444;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+}
+
+section{
+    max-width:1000px;
+    margin:auto;
+    padding:40px;
+}
+
+.project-card{
+    background:white;
+    padding:20px;
+    margin-top:15px;
+    border-radius:10px;
+    box-shadow:0px 2px 8px rgba(0,0,0,0.15);
+}
+
+ul{
+    margin-left:20px;
+}
+
+a{
+    color:#0077cc;
+}
