@@ -10,16 +10,13 @@ body{
     background: linear-gradient(to right, #DA70D6, #f4f4f4);
 }
 
-header {
-    min-height: 100vh;
-    background: linear-gradient(
-        135deg,
-        #0f172a,
-        #1e3a8a
-    );
+.hero-content {
+    width: 80%;
 
     display: flex;
-    justify-content: center;
+
+    justify-content: space-between;
+
     align-items: center;
 }
 
