@@ -10,11 +10,17 @@ body{
     background: linear-gradient(to right, #DA70D6, #f4f4f4);
 }
 
-header{
-    background:#222;
-    color:white;
-    text-align: center;
-    padding: 80px;
+header {
+    min-height: 100vh;
+    background: linear-gradient(
+        135deg,
+        #0f172a,
+        #1e3a8a
+    );
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 nav{
